@@ -11,6 +11,7 @@ section {
     background-color: #EACBD2;
     padding: 10px;
     border-radius: 10px;
+    max-width: 200px;
 }
 
 .heirarchy {
