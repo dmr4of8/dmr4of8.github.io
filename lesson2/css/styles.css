@@ -4,6 +4,7 @@ body {
     grid-template-columns: repeat(3, fr);
     grid-gap: 10px;
     max-width: 900px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 section {
