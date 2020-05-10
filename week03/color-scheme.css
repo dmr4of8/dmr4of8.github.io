@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    color: #AF929D;
+  }
+
+h3 {
+    color: #104547;
+}
+
+.tag {
+    color: #AF929D;
+}
+
+.secondary {
+    color: #4B5358;
+}
+
+.accent1 {
+    color: #727072;
+}
+
+.accent2 {
+    color: #d2d6ef;
+}
