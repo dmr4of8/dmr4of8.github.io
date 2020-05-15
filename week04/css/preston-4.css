@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 0;
+    color: white;
+    background-color: #104547;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 0 0 10px;
+}
+
+.header-text h1 {
+    margin: 0 0 5px 0;
+}
+.header-text p {
+    margin: 0 0 5px 0;
+}
+
+header picture img {
+    height: 100px;
+}
+
+nav .hamburger-menu {
+    background-color: #AF929D;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.hamburger-menu li {
+    display: none;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.hamburger-menu li:first-child {
+    display: block;
+    margin: 0;
+}
+
+.hamburger-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.squashed li {
+    display: block;
+}
+
+footer {
+    display: flex;
+}
+
+footer p {
+    margin-left: 4px;
+}
+
+main {
+    background-color: #D2D6EF;
+    margin: 0;
+    padding: 40px 0;
+}
+
+.post-text {
+    margin: 0;
+    padding: 10px;
+}
+
+.post {
+    background-color: white;
+    border: solid black 1px;
+    margin: 10px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-title {
+    margin-top: 0px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 51rem) {
+    .hamburger-menu {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .hamburger-menu li {
+        display: block;
+        margin: 0 15px 0 15px;
+    }
+    .hamburger-menu li:first-child {
+        display: none;
+    }
+}
+
+ @media only screen and (max-width: 35rem) {
+    footer {
+        display: block;
+        text-align: center;
+    }
+    .header-text h1 {
+        font-size: 20px;
+    }
+}
