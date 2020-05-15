@@ -42,8 +42,17 @@ nav .hamburger-menu {
 
 .hamburger-menu li {
     display: none;
-    margin-top: 10px;
+    padding-top: 10px;
     font-size: 22px;
+}
+
+.hamburger-menu li:hover {
+    background-color: #727072;
+    
+}
+
+.hamburger-menu li a:hover {
+    color: white;
 }
 
 .hamburger-menu li:first-child {
@@ -101,7 +110,7 @@ main {
     }
     .hamburger-menu li {
         display: block;
-        margin: 0 15px 0 15px;
+        padding: 0 15px 0 15px;
     }
     .hamburger-menu li:first-child {
         display: none;
