@@ -36,23 +36,20 @@ nav .hamburger-menu {
     background-color: #AF929D;
     list-style: none;
     text-align: center;
+    vertical-align: middle;
     margin: 0;
-    padding: 10px 0;
 }
 
 .hamburger-menu li {
     display: none;
-    padding-top: 10px;
     font-size: 22px;
+    height: 40px;
+    color: black;
 }
 
 .hamburger-menu li:hover {
-    background-color: #727072;
-    
-}
-
-.hamburger-menu li a:hover {
     color: white;
+    background-color: #727072;
 }
 
 .hamburger-menu li:first-child {
@@ -62,7 +59,8 @@ nav .hamburger-menu {
 
 .hamburger-menu a {
     text-decoration: none;
-    color: black;
+    color: inherit;
+    line-height: 40px;
 }
 
 .squashed li {
