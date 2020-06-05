@@ -17,3 +17,8 @@ body {
 .lazy-img.transition {
     opacity: 1;
 }
+
+/* .lazy-img {
+    width: 300px;
+    height: 400px;
+} */
