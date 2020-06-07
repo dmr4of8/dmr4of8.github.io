@@ -255,9 +255,6 @@ main {
     grid-template-columns: auto auto;
 }
 
-.image-with-text:hover {
-    box-shadow: 0 5px 15px #727072;
-}
 
 .image-with-text p {
     background-color: white;
