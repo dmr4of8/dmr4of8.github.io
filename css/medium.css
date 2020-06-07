@@ -221,3 +221,52 @@ main {
 .hidden {
     display: none;
 }
+
+.gallery-main h1 {
+    color: #104547;
+    margin: 20px;
+}
+
+.lazy-img {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.lazy-img.transition {
+    opacity: 1;
+}
+
+.image-with-text {
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 30px;
+    height: fit-content;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 400px;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.image-with-text:hover {
+    box-shadow: 0 5px 15px #727072;
+}
+
+.image-with-text p {
+    background-color: white;
+    text-align: center;
+    border-left: 1px solid #727072;
+    border-right: 1px solid #727072;
+    border-bottom: 1px solid #727072;
+    padding: 10px;
+    margin: 0px;
+    margin-top: -4px;
+    max-width: 378px;
+}
