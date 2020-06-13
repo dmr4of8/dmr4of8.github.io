@@ -1,165 +1,167 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-header, footer {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 10px 0;
-    color: white;
-    background-color: #104547;
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 0;
+  color: white;
+  background-color: #104547;
 }
 
 .header-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin: 0 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 0 0 10px;
 }
 
 .header-text h1 {
-    margin: 0 0 5px 0;
+  margin: 0 0 5px 0;
 }
 .header-text p {
-    margin: 0 0 5px 0;
+  margin: 0 0 5px 0;
 }
 
 header picture img {
-    height: 100px;
+  height: 100px;
 }
 
 nav .hamburger-menu {
-    background-color: #AF929D;
-    list-style: none;
-    text-align: center;
-    vertical-align: middle;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  background-color: #af929d;
+  list-style: none;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .hamburger-menu li {
-    display: block;
-    font-size: 22px;
-    height: 40px;
-    color: black;
-    padding: 0 15px 0 15px;
+  display: block;
+  font-size: 22px;
+  height: 40px;
+  color: black;
+  padding: 0 15px 0 15px;
 }
 
 .active {
-    color: white !important;
-    background-color: #104547;
+  color: white !important;
+  background-color: #104547;
 }
 
 .hamburger-menu li:hover {
-    color: white;
-    background-color: #727072;
+  color: white;
+  background-color: #727072;
 }
 
 .hamburger-menu li:first-child {
-    display: none;
-    margin: 0;
+  display: none;
+  margin: 0;
 }
 
 .hamburger-menu a {
-    text-decoration: none;
-    color: inherit;
-    line-height: 40px;
+  text-decoration: none;
+  color: inherit;
+  line-height: 40px;
 }
 
 .squashed li {
-    display: block;
+  display: block;
 }
 
 footer {
-    display: flex;
+  display: flex;
 }
 
 footer p {
-    margin-left: 4px;
+  margin-left: 4px;
 }
 
 main {
-    background-color: #D2D6EF;
-    margin: 0;
-    padding: 40px 0;
+  background-color: #d2d6ef;
+  margin: 0;
+  padding: 40px 0;
 }
 
 .post-text {
-    margin: 0;
-    padding: 10px;
+  margin: 0;
+  padding: 10px;
 }
 
 .post h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .post {
-    margin: 40px 0;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  margin: 40px 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-title {
-    margin-top: 0px;
-    text-align: center;
+  margin-top: 0px;
+  text-align: center;
 }
 
 .forecast-table {
-    margin-left:auto; 
-    margin-right:auto;
-    border-spacing: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0;
 }
-.forecast-table th, td {
-    border: 1px solid black;
-    padding: 10px 20px;
+.forecast-table th,
+td {
+  border: 1px solid black;
+  padding: 10px 20px;
 }
 .forecast-table .days {
-    background-color: #AF929D;
+  background-color: #af929d;
 }
 .forecast-table tr img {
-    width: 40px;
+  width: 40px;
 }
 .forecast-table .forecast td {
-    background-color: white;
-    padding-top: 20px;
+  background-color: white;
+  padding-top: 20px;
 }
 
- .hero-weather-summary {
-    position: relative;
+.hero-weather-summary {
+  position: relative;
 }
 
 .hero-weather-summary img {
-    width: 100%;
-    z-index: -1;
+  width: 100%;
+  z-index: -1;
 }
 
 .weather-summary {
-    background-color: #AF929D;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    float: left;
-    left: 5%;
-    top: 10%;
+  background-color: #af929d;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  float: left;
+  left: 5%;
+  top: 10%;
 }
 
 .weather-summary h5 {
-    margin: 10px 5px 5px 5px;
+  margin: 10px 5px 5px 5px;
 }
 .weather-summary hr {
-    margin: 0px 5px;
+  margin: 0px 5px;
 }
 .weather-summary p {
-    text-align: center;
-    font-size: 14px;
-    margin: 4px 0px;
+  text-align: center;
+  font-size: 14px;
+  margin: 4px 0px;
 }
 
 /* .article .post-text {
@@ -169,112 +171,165 @@ main {
 } */
 
 .article {
-    background-color: #AF929D;
-    border: 1px solid black;
-    min-height: 240px;
+  background-color: #af929d;
+  border: 1px solid black;
+  min-height: 240px;
 }
 .article h4 {
-    margin: 5px;
+  margin: 5px;
 }
 .article h5 {
-    margin: 5px;
+  margin: 5px;
 }
 .article img {
-    float: right;
-    height: 200px;
-    margin: 20px;
-    object-fit: contain;
+  float: right;
+  height: 200px;
+  margin: 20px;
+  object-fit: contain;
 }
 
 .map-pin {
-    height: 15px;
-    margin: 0 4px;
+  height: 15px;
+  margin: 0 4px;
 }
 
 .contact {
-    width: 100%;
-    text-align: center;
-    margin-bottom: -40px;
-    background-color: #727072;
-    opacity: 70%;
-    color: white;
-    position: relative;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -40px;
+  background-color: #727072;
+  opacity: 70%;
+  color: white;
+  position: relative;
 }
 .contact div {
-    text-align: left;
-    display: inline-block;
-    margin-left: 5px;
+  text-align: left;
+  display: inline-block;
+  margin-left: 5px;
 }
 .map-image {
-    display: block;
-    position: absolute;
-    height: 150px;
-    margin: 10px;
-    left: 14%;
-
+  display: block;
+  position: absolute;
+  height: 150px;
+  margin: 10px;
+  left: 14%;
 }
 .contact h5 {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .important-alert {
-    padding: 20px;
-    background-color: #AF929D;
-    text-align: center;
+  padding: 20px;
+  background-color: #af929d;
+  text-align: center;
 }
 .important-alert p {
-    margin: 0;
+  margin: 0;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .gallery-main h1 {
-    color: #104547;
-    margin: 20px;
+  color: #104547;
+  margin: 20px;
 }
 
 .lazy-img {
-    transition: opacity 1s ease-in-out;
-    opacity: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .lazy-img.transition {
-    opacity: 1;
+  opacity: 1;
 }
 
 .image-with-text {
-    /* margin-left: auto;
+  /* margin-left: auto;
     margin-right: auto; */
-    margin-top: 30px;
-    height: fit-content;
-    margin-left: 30px;
-    margin-right: 30px;
-    max-width: 400px;
+  margin-top: 30px;
+  height: fit-content;
+  margin-left: 30px;
+  margin-right: 30px;
+  max-width: 400px;
 }
 
 .gallery-images {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .image-with-text:hover {
-    box-shadow: 0 5px 15px #727072;
+  box-shadow: 0 5px 15px #727072;
 }
 
 .image-with-text p {
-    background-color: white;
-    text-align: center;
-    border-left: 1px solid #727072;
-    border-right: 1px solid #727072;
-    border-bottom: 1px solid #727072;
-    padding: 10px;
-    margin: 0px;
-    margin-top: -4px;
-    max-width: 378px;
+  background-color: white;
+  text-align: center;
+  border-left: 1px solid #727072;
+  border-right: 1px solid #727072;
+  border-bottom: 1px solid #727072;
+  padding: 10px;
+  margin: 0px;
+  margin-top: -4px;
+  max-width: 378px;
+}
+
+.storm-center-form input {
+  display: block;
+}
+
+.storm-center-form ul {
+  list-style-type: none;
+}
+
+.storm-center-form ul li {
+  padding: 10px;
+}
+
+.storm-center-form .radio-options input {
+  float: left;
+  clear: none;
+  margin: 10px 0 4px 8px;
+
+}
+
+.storm-center-form .radio-options label {
+  float: left;
+  margin: 8px 5px;
+}
+
+.storm-center-form select {
+    display: block;
+    margin-top: 10px;
+}
+
+.storm-center-form input {
+    margin-top: 10px;
+}
+
+.storm-center-form textarea {
+    display: block;
+    margin-top: 10px;
+}
+
+/* .storm-center-form label {
+    padding-top: 20px;
+} */
+
+.storm-center-form .additional-label {
+    margin-top: 10px;
+}
+
+/* .storm-center-form .radio-li {
+    padding-bottom: 20px;
+} */
+
+.storm-center-form .radio-options {
+    margin-bottom: 30px;
 }
