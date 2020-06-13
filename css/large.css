@@ -340,3 +340,15 @@ td {
   color: #104547;
   margin: 20px;
 }
+
+.grouping {
+  border: 1px solid #104547;
+  border-radius: 16px;
+  margin: 20px;;
+}
+
+.grouping-header {
+  color: #104547;
+  margin: 20px 10px;
+  font-weight: bold;
+}

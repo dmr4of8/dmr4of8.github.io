@@ -41,76 +41,86 @@
         <h1>Storm Center</h1>
         <form class="storm-center-form" action="/week08/thanks.html" method="get">
             <ul>
-                <li>
-                    <label class="label" for="name" required>Full Name
-                        <input id="name" name="name" type="text" pattern="([a-zA-Z0-9\s]){5,}" required>
-                    </label>
-                </li>
-                <li>
-                    <label class="label" for="email">Email
-                        <input id="email" name="email" type="email" placeholder="janedoe@email.com">
-                    </label>
-                </li>
-                <li>
-                    <label class="label" for="phone" required>Phone Number
-                        <input id="phone" name="phone" type="tel">
-                    </label>
-                </li>
-                <li>
-                    <label class="label" for="zip" required>Zip Code
-                        <input id="zip" name="zip" type="number">
-                    </label>
-                </li>
-                <li>
-                    <label class="label" for="date">Date
-                        <input id="date" name="date" type="date">
-                    </label>
-                </li>
-                <li>
-                    <label class="label" for="storm-type">Storm Type
-                        <input id="storm-type" class="storm-type" list="storm-types">
-                        <datalist id="storm-types" name="storm-types">
-                            <option value="Flash Flood">Flash Flood</option>
-                            <option value="Hail">Hail</option>
-                            <option value="Hurricane">Hurricane</option>
-                            <option value="Thunderstorm">Thunderstorm</option>
-                            <option value="Tornado">Tornado</option>
-                        </datalist>
-                    </label>
-                </li>
-                <li>
-                    <label id="label" for="storm-severity">Storm Severity
-                        <input id="storm-severity" class="storm-severity" type="range" min="1" max="10">
-                        <span id="ratingvalue">6</span>
-                    </label>
-                </li>
-                <li>
-                    <label id="label" for="storm-region">Storm Region
-                        <select class="element select medium" id="storm-region" name="storm-region">
-                            <option value="Select" selected disabled>Select Region ...</option>
-                            <option value="Preston">Preston</option>
-                            <option value="Soda Springs">Soda Springs</option>
-                            <option value="Fish Haven">Fish Haven</option>
-                        </select>
-                    </label>
-                </li>
-                <li class="radio-li">
-                    <label id="label" for="danger-rating">Are you in danger?
-                        <div class="radio-options">
-                            <input id="radio-option-1" name="danger-rating" type="radio" value="yes">
-                            <label class="choice" for="radio-option-1">Yes</label>
-                            <input id="radio-option-2" name="danger-rating" type="radio" value="maybe">
-                            <label class="choice" for="radio-option-2">Maybe</label>
-                            <input id="radio-option-3" name="danger-rating" type="radio" value="no">
-                            <label class="choice" for="radio-option-3">No</label>
-                        </div>
-                    </label>
-                </li>
-                <li>
-                    <label id="label" class="additional-label" for="additional">Addition Information or Comments
-                        <textarea id="additional" name="additional"></textarea>
-                    </label>
-                </li>
+                <fieldset class="grouping">
+                    <legend class="grouping-header">Personal Information</legend>
+                    </li>
+                    <li>
+                        <label class="label" for="name" required>Full Name
+                            <input id="name" name="name" type="text" pattern="([a-zA-Z0-9\s]){5,}" required>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="label" for="email">Email
+                            <input id="email" name="email" type="email" placeholder="janedoe@email.com">
+                        </label>
+                    </li>
+                    <li>
+                        <label class="label" for="phone" required>Phone Number
+                            <input id="phone" name="phone" type="tel">
+                        </label>
+                    </li>
+                    <li>
+                        <label class="label" for="zip" required>Zip Code
+                            <input id="zip" name="zip" type="number">
+                        </label>
+                    </li>
+                </fieldset>
+                <fieldset class="grouping">
+                    <legend class="grouping-header">Storm Information</legend>
+                    <li>
+                        <label class="label" for="date">Date
+                            <input id="date" name="date" type="date">
+                        </label>
+                    </li>
+                    <li>
+                        <label class="label" for="storm-type">Storm Type
+                            <input id="storm-type" class="storm-type" list="storm-types">
+                            <datalist id="storm-types" name="storm-types">
+                                <option value="Flash Flood">Flash Flood</option>
+                                <option value="Hail">Hail</option>
+                                <option value="Hurricane">Hurricane</option>
+                                <option value="Thunderstorm">Thunderstorm</option>
+                                <option value="Tornado">Tornado</option>
+                            </datalist>
+                        </label>
+                    </li>
+                    <li>
+                        <label id="label" for="storm-severity">Storm Severity
+                            <input id="storm-severity" class="storm-severity" type="range" min="1" max="10">
+                            <span id="ratingvalue">6</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label id="label" for="storm-region">Storm Region
+                            <select class="element select medium" id="storm-region" name="storm-region">
+                                <option value="Select" selected disabled>Select Region ...</option>
+                                <option value="Preston">Preston</option>
+                                <option value="Soda Springs">Soda Springs</option>
+                                <option value="Fish Haven">Fish Haven</option>
+                            </select>
+                        </label>
+                    </li>
+                    <li class="radio-li">
+                        <label id="label" for="danger-rating">Are you in danger?
+                            <div class="radio-options">
+                                <input id="radio-option-1" name="danger-rating" type="radio" value="yes">
+                                <label class="choice" for="radio-option-1">Yes</label>
+                                <input id="radio-option-2" name="danger-rating" type="radio" value="maybe">
+                                <label class="choice" for="radio-option-2">Maybe</label>
+                                <input id="radio-option-3" name="danger-rating" type="radio" value="no">
+                                <label class="choice" for="radio-option-3">No</label>
+                            </div>
+                        </label>
+                    </li>
+                </fieldset>
+                <fieldset class="grouping">
+                    <legend class="grouping-header"> Addition Information or Comments</legend>
+                    <li>
+                        <label id="label" class="additional-label" for="additional">
+                            <textarea id="additional" name="additional"></textarea>
+                        </label>
+                    </li>
+                </fieldset>
                 <li>
                     <input id="submit" class="submit" type="submit" name="submit" value="Submit">
                 </li>
