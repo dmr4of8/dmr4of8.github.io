@@ -344,3 +344,11 @@ main {
   footer a {
     color: #af929d;
   }
+
+  .home {
+      background-color: #AF929D;
+      width: 80%;
+      height: 200px;
+  }
+  
+  

@@ -356,3 +356,38 @@ td {
 footer a {
   color: #af929d;
 }
+
+.home section {
+  background-color: #AF929D;
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.home h3 {
+  color: #104547;
+}
+.home picture {
+  float: right;
+}
+
+.home .fish-haven picture {
+  float: left;
+}
+
+/* 
+.home .fish-haven .text {
+  float: right;
+}
+.home section .text {
+  float: left;
+} */
+
+.event-card {
+  padding: 20px;
+  background-color: #af929d;
+  text-align: center;
+}
+.event-card p {
+  margin: 0;
+}
