@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 header, footer {
@@ -11,7 +10,7 @@ header, footer {
     align-content: center;
     padding: 10px 0;
     color: white;
-    background-color: #0D3B66;
+    background-color: #104547;
 }
 
 .header-text {
@@ -24,7 +23,6 @@ header, footer {
 
 .header-text h1 {
     margin: 0 0 5px 0;
-    font-size: 20px;
 }
 .header-text p {
     margin: 0 0 5px 0;
@@ -76,8 +74,7 @@ nav .hamburger-menu {
 }
 
 footer {
-    display: block;
-    text-align: center;
+    display: flex;
 }
 
 footer p {
@@ -95,6 +92,10 @@ main {
     padding: 10px;
 }
 
+.post h3 {
+    text-align: center;
+}
+
 .post {
     margin: 40px 0;
     width: 80%;
@@ -107,19 +108,31 @@ main {
     text-align: center;
 }
 
-
-
-.forecast-section {
-    display: none;
+.forecast-table {
+    margin-left:auto; 
+    margin-right:auto;
+    border-spacing: 0;
 }
-
+.forecast-table th, td {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.forecast-table .days {
+    background-color: #AF929D;
+}
+.forecast-table tr img {
+    width: 40px;
+}
+.forecast-table .forecast td {
+    background-color: white;
+    padding-top: 20px;
+}
 .hero-weather-summary img {
     width: 100%;
 }
 
 .hero-weather-summary {
     position: relative;
-    margin-bottom: 50px;
 }
 
 .hero-weather-summary img {
@@ -135,7 +148,6 @@ main {
     float: left;
     left: 5%;
     top: 10%;
-    margin: 10px;
 }
 
 .weather-summary h5 {
@@ -159,9 +171,8 @@ main {
 .article {
     background-color: #AF929D;
     border: 1px solid black;
-    text-align: center;
-    display: block;
 }
+
 .article h4 {
     margin: 5px;
 }
@@ -169,10 +180,10 @@ main {
     margin: 5px;
 }
 .article img {
+    float: right;
     height: 200px;
-    margin: 20px 0;
+    margin: 20px;
 }
-
 .map-pin {
     height: 15px;
     margin: 0 4px;
@@ -206,6 +217,7 @@ main {
 .important-alert p {
     margin: 0;
 }
+
 .hidden {
     display: none;
 }
@@ -240,7 +252,7 @@ main {
 
 .gallery-images {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
 }
 
 
@@ -331,4 +343,34 @@ main {
 
   footer a {
     color: #af929d;
+  }
+
+  .home {
+      background-color: #AF929D;
+      width: 80%;
+      height: 200px;
+  }
+  
+  .home section {
+    background-color: #AF929D;
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  .home h3 {
+    color: #104547;
+  }
+  
+  .home .fish-haven picture {
+    float: left;
+  }
+  
+  .event-card {
+    padding: 20px;
+    background-color: #af929d;
+    text-align: center;
+  }
+  .event-card p {
+    margin: 0;
   }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Correct-a-Weather Site Dana Roberts Spring 2020 WDD230">
+    <title>Scoots</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link media="(min-width: 54rem)" rel="stylesheet" href="/Scoots/css/large.css">
+    <link media="(min-width: 35rem) and (max-width: 54rem)" rel="stylesheet" href="/Scoots/css/medium.css">
+    <link media="(max-width: 35rem)" rel="stylesheet" href="/Scoots/css/small.css">
+    <link rel="shortcut icon" href="scoots-favicon.ico">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="scoots-logo.png" alt="Scoots Logo">
+        </picture>
+        <section class="header-text">
+            <h1>Scoots</h1>
+            <p>Scoot 'til you drop!</p>
+        </section>
+    </header>
+    <nav>
+        <ul class="hamburger-menu">
+            <li><a class="item-1" href="#">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="home">
+        <h2 class="page-title">Contact Us</h2>
+        <section>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_mail" />
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send your message</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119701.73244498238!2d-87.02511233918364!3d20.354869726753805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e532fff8724d7%3A0x3b5acf5d6654bf54!2sPlaya%20%22El%20Cielo%22!5e0!3m2!1sen!2sus!4v1595266084625!5m2!1sen!2sus"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </main>
+    <footer>
+        <div class="social">
+            <img src="https://cdn.glitch.com/8cd48928-39dc-41ad-84f3-e140f5187150%2Ffacebook.png?v=1580319651888"
+                alt="Facebook icon" onclick="window.open('facebook.com')" />
+            <img src="https://cdn.glitch.com/8cd48928-39dc-41ad-84f3-e140f5187150%2Ftwitter.png?v=1580319655059"
+                alt="Google plus icon" onclick="window.open('google.com')" />
+            <img src="https://cdn.glitch.com/8cd48928-39dc-41ad-84f3-e140f5187150%2Fgoogleplus.png?v=1580319658578"
+                alt="Twitter icon" onclick="window.open('twitter.com')" />
+            <p>&copy; Scoots | Dana Roberts | &copy;2020 </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Poppins'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
+<script src="/Scoots/js/scoots.js"></script>

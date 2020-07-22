@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Correct-a-Weather Site Dana Roberts Spring 2020 WDD230">
+    <title>Scoots</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link media="(min-width: 54rem)" rel="stylesheet" href="/Scoots/css/large.css">
+    <link media="(min-width: 35rem) and (max-width: 54rem)" rel="stylesheet" href="/Scoots/css/medium.css">
+    <link media="(max-width: 35rem)" rel="stylesheet" href="/Scoots/css/small.css">
+    <link rel="shortcut icon" href="scoots-favicon.ico">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="scoots-logo.png" alt="Scoots Logo">
+        </picture>
+        <section class="header-text">
+            <h1>Scoots</h1>
+            <p>Scoot 'til you drop!</p>
+        </section>
+    </header>
+    <nav>
+        <ul class="hamburger-menu">
+            <li><a class="item-1" href="#">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li class="active"><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="reservations">
+        <h2 class="page-title">Reservations</h2>
+        <form class="reservation-form" action="res-deposit.html" method="get">
+            <ul>
+                <fieldset class="grouping">
+                    <legend class="grouping-header">Personal Information</legend>
+                    </li>
+                    <li>
+                        <label class="label" for="name" required>Full Name
+                            <input id="name" name="name" type="text" pattern="([a-zA-Z0-9\s]){5,}" required>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="label" for="email">Email
+                            <input id="email" name="email" type="email" placeholder="janedoe@email.com">
+                        </label>
+                    </li>
+                    <li>
+                        <label class="label" for="phone" required>Phone Number
+                            <input id="phone" name="phone" type="tel">
+                        </label>
+                    </li>
+                    <li>
+                        <label class="label" for="country" required>State or Country
+                            <input id="country" name="country" type="text" pattern="([a-zA-Z0-9\s]){4,}" required>
+                        </label>
+                    </li>
+                </fieldset>
+                <fieldset class="grouping">
+                    <legend class="grouping-header">Rental Information</legend>
+                    <li>
+                        <label class="label" for="date">Date
+                            <input id="date" name="date" type="date">
+                        </label>
+                    </li>
+                    <li class="radio-li">
+                        <label id="label" for="rental-period">How long do you want to rent?
+                            <div class="radio-options rental">
+                                <input id="radio-option-1" name="rental-period" type="radio" value="half-day">
+                                <label class="choice" for="radio-option-1">Half Day (3 Hours)</label>
+                                <input id="radio-option-2" name="rental-period" type="radio" value="full-day">
+                                <label class="choice" for="radio-option-2">Full Day (6 hours)</label>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="label" for="cruise">Cruise Line, if applicable
+                            <input id="cruise" name="cruise" type="text" pattern="([a-zA-Z0-9\s]){5,}">
+                        </label>
+                    </li>
+                    <li class="radio-li">
+                        <label id="label" for="rental-period">How long do you want to rent?
+                            <div class="radio-options ">
+                                <div class="radio-options scooters">
+                                    <input id="radio-option-1" name="rental-period" type="radio" value="metro">
+                                    <label class="choice" for="radio-option-1">Honda Metro Scooter</label>
+                                    <input id="radio-option-2" name="rental-period" type="radio" value="dio">
+                                    <label class="choice" for="radio-option-2">Honda Dio Scooter</label>
+                                    <input id="radio-option-3" name="rental-period" type="radio" value="pcx150">
+                                    <label class="choice" for="radio-option-3">Honda PCX150 Scooter</label>
+                                    <input id="radio-option-4" name="rental-period" type="radio" value="pioneer">
+                                    <label class="choice" for="radio-option-4">Honda Pioneer ATV</label>
+                                    <input id="radio-option-5" name="rental-period" type="radio" value="wrangler4">
+                                    <label class="choice" for="radio-option-5">Jeep Wranger - 4 door with a/c</label>
+                                    <input id="radio-option-6" name="rental-period" type="radio" value="wrangler2">
+                                    <label class="choice" for="radio-option-6">Jeep Wranger - 2 door</label>
+                                </div>
+                        </label>
+                    </li>
+                </fieldset>
+                <fieldset class="grouping">
+                    <legend class="grouping-header"> Addition Information or Accommodations</legend>
+                    <li>
+                        <label id="label" class="additional-label" for="additional">
+                            <textarea id="additional" name="additional"></textarea>
+                        </label>
+                    </li>
+                </fieldset>
+                <li>
+                    <input id="submit" class="submit" type="submit" name="submit" value="Submit">
+                </li>
+            </ul>
+        </form>
+    </main>
+    <footer>
+        <div class="social">
+            <img src="https://cdn.glitch.com/8cd48928-39dc-41ad-84f3-e140f5187150%2Ffacebook.png?v=1580319651888"
+                alt="Facebook icon" onclick="window.open('facebook.com')" />
+            <img src="https://cdn.glitch.com/8cd48928-39dc-41ad-84f3-e140f5187150%2Ftwitter.png?v=1580319655059"
+                alt="Google plus icon" onclick="window.open('google.com')" />
+            <img src="https://cdn.glitch.com/8cd48928-39dc-41ad-84f3-e140f5187150%2Fgoogleplus.png?v=1580319658578"
+                alt="Twitter icon" onclick="window.open('twitter.com')" />
+            <p>&copy; Scoots | Dana Roberts | &copy;2020 </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Poppins'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
+<script src="/Scoots/js/scoots.js"></script>

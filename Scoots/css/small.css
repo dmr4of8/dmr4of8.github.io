@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 header, footer {
@@ -11,7 +10,7 @@ header, footer {
     align-content: center;
     padding: 10px 0;
     color: white;
-    background-color: #0D3B66;
+    background-color: #104547;
 }
 
 .header-text {

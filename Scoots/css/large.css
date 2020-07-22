@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 0;
+  color: white;
+  background-color: #0d3b66;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 0 0 10px;
+}
+
+.header-text h1 {
+  margin: 0 0 5px 0;
+}
+.header-text p {
+  margin: 0 0 5px 0;
+}
+
+header picture img {
+  height: 100px;
+}
+
+nav .hamburger-menu {
+  background-color: #faf0ca;
+  list-style: none;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.hamburger-menu li {
+  display: block;
+  font-size: 22px;
+  height: 40px;
+  color: black;
+  padding: 0 15px 0 15px;
+}
+
+.active {
+  color: white !important;
+  background-color: #0d3b66;
+}
+
+.hamburger-menu li:hover {
+  color: white;
+  background-color: #727072;
+}
+
+.hamburger-menu li:first-child {
+  display: none;
+  margin: 0;
+}
+
+.hamburger-menu a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 40px;
+}
+
+.squashed li {
+  display: block;
+}
+
+footer {
+  display: flex;
+}
+
+footer p {
+  margin-left: 4px;
+}
+
+main {
+  background-color: #ee964b;
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+}
+.home {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+main h2 {
+  color: #0d3b66;
+  margin: 20px auto;
+  display: block;
+  grid-column: 1/3;
+}
+
+.hidden {
+  display: none;
+}
+
+footer a {
+  color: #faf0ca;
+}
+
+.home section {
+  background-color: #faf0ca;
+  width: 80%;
+  padding: 20px;
+  margin: 20px auto;
+}
+.home .main-data {
+  grid-column: 1;
+}
+main h3 {
+  color: #0d3b66;
+}
+.home .call-to-action {
+  width: fit-content;
+  grid-column: 2;
+  grid-row: 2/4;
+}
+.home .call-to-action h4 {
+  margin: 0;
+  color: #0d3b66;
+}
+form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+button[type="submit"] {
+  background-color: #f4d35e;
+  color: #2f2f2f;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+form li {
+  list-style-type: none;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.rentals .rental-data {
+  background-color: #faf0ca;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
+.tours .tours-data {
+  background-color: #faf0ca;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.rentals table {
+  border-collapse: collapse;
+}
+
+.rentals td,
+th {
+  padding: 10px;
+}
+
+.reservation-form input {
+  display: block;
+}
+
+.reservation-form ul {
+  list-style-type: none;
+}
+
+.reservation-form ul li {
+  padding: 10px;
+}
+
+.reservation-form .rental input {
+  float: left;
+  clear: none;
+  margin: 10px 0 4px 8px;
+}
+
+.reservation-form .rental label {
+  float: left;
+  margin: 8px 5px;
+  font-size: 12px;
+}
+
+.reservation-form select {
+  display: block;
+  margin-top: 10px;
+}
+
+.reservation-form input {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.reservation-form textarea {
+  display: block;
+  margin-top: 10px;
+}
+
+.reservation-form .scooters label {
+  font-size: 14px;
+}
+
+.reservation-form .additional-label {
+  margin-top: 10px;
+}
+
+.reservation-form .radio-li {
+  margin-bottom: 30px;
+}
+
+.reservation-form #ratingvalue {
+  padding-left: 60px;
+}
+
+.grouping {
+  border: 1px solid #0d3b66;
+  border-radius: 16px;
+  margin: 20px;
+}
+
+.grouping-header {
+  color: #0d3b66;
+  margin: 20px 10px;
+  font-weight: bold;
+}

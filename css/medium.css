@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header, footer {
@@ -10,7 +10,7 @@ header, footer {
     align-content: center;
     padding: 10px 0;
     color: white;
-    background-color: #104547;
+    background-color: #0D3B66;
 }
 
 .header-text {
@@ -351,4 +351,26 @@ main {
       height: 200px;
   }
   
+  .home section {
+    background-color: #AF929D;
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  .home h3 {
+    color: #104547;
+  }
   
+  .home .fish-haven picture {
+    float: left;
+  }
+  
+  .event-card {
+    padding: 20px;
+    background-color: #af929d;
+    text-align: center;
+  }
+  .event-card p {
+    margin: 0;
+  }

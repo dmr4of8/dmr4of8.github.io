@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Correct-a-Weather Site Dana Roberts Spring 2020 WDD230">
+    <title>Scoots</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link media="(min-width: 54rem)" rel="stylesheet" href="/Scoots/css/large.css">
+    <link media="(min-width: 35rem) and (max-width: 54rem)" rel="stylesheet" href="/Scoots/css/medium.css">
+    <link media="(max-width: 35rem)" rel="stylesheet" href="/Scoots/css/small.css">
+    <link rel="shortcut icon" href="scoots-favicon.ico">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="scoots-logo.png" alt="Scoots Logo">
+        </picture>
+        <section class="header-text">
+            <h1>Scoots</h1>
+            <p>Scoot 'til you drop!</p>
+        </section>
+    </header>
+    <nav>
+        <ul class="hamburger-menu">
+            <li><a class="item-1" href="#">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li class="active"><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="rentals">
+        <h2 class="page-title">Rentals</h2>
+        <section class="rental-data">
+            <span class="text">
+                <table>
+                   <thead>
+                       <th>Rental Type</th>
+                       <th>Max # Of People</th>
+                       <th>Half Day Reservation</th>
+                       <th>Full Day Reservation</th>
+                       <th>Half Day Walk-In</th>
+                       <th>Full Day Walk-In</th>
+                </thead> 
+                <tbody class="rental-body"></tbody>
+                </table>
+            </span>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <img
+              src="https://cdn.glitch.com/8cd48928-39dc-41ad-84f3-e140f5187150%2Ffacebook.png?v=1580319651888"
+              alt="Facebook icon"
+              onclick="window.open('facebook.com')"
+            />
+            <img
+              src="https://cdn.glitch.com/8cd48928-39dc-41ad-84f3-e140f5187150%2Ftwitter.png?v=1580319655059"
+              alt="Google plus icon"
+              onclick="window.open('google.com')"
+            />
+            <img
+              src="https://cdn.glitch.com/8cd48928-39dc-41ad-84f3-e140f5187150%2Fgoogleplus.png?v=1580319658578"
+              alt="Twitter icon"
+              onclick="window.open('twitter.com')"
+            />
+        <p>&copy; Scoots | Dana Roberts | &copy;2020 </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Poppins'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
+<script src="/Scoots/js/scoots.js"></script>
